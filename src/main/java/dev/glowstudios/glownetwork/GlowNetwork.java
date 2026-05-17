@@ -60,10 +60,10 @@ public class GlowNetwork {
 
             packFile = dataDirectory.resolve(config.getPackFilename()).toFile();
             if (!packFile.exists()) {
-                logger.error("-----------------------------------------");
+                logger.error("#######################################################");
                 logger.error(" Pack not found: " + packFile.getAbsolutePath());
                 logger.error(" Drop your pack.zip into plugins/glownetwork/ and restart.");
-                logger.error("-----------------------------------------");
+                logger.error("#######################################################");
                 return;
             }
 
